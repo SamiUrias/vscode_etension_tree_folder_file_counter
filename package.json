@@ -2,6 +2,7 @@
   "name": "tree-folder-file-counter",
   "displayName": "tree_folder_file_counter",
   "description": "Count how many files are inside a folder",
+  "publisher": "SamuelUrias",
   "repository": {
   "type": "git",
   "url": "https://github.com/SamiUrias/vscode_etension_tree_folder_file_counter"
