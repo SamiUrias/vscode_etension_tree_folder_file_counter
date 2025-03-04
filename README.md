@@ -48,6 +48,10 @@ This extension have the following settings:
 ### 1.0.4
 
 - Fix documentation issues
+
+### 1.0.5
+
+-  Change vscode minimum compatibility
 ---
 
 ## Extension guidelines

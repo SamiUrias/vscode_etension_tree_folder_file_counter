@@ -23,3 +23,7 @@ All notable changes to the "tree-folder-file-counter" extension:
 
 - Fix documentation issues
 
+## [1.0.5]
+
+- Change vscode minimum compatibility
+
