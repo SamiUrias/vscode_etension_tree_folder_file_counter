@@ -33,6 +33,9 @@ This extension have the following settings:
 
 Initial release of the extension
 
+### 1.0.1
+
+Fix image links in ReadMe page
 ---
 
 ## Extension guidelines
