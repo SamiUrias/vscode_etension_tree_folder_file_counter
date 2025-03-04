@@ -31,11 +31,23 @@ This extension have the following settings:
 
 ### 1.0.0
 
-Initial release of the extension
+- Initial release of the extension
 
 ### 1.0.1
 
-Fix image links in ReadMe page
+- Fix image links in ReadMe page
+
+### 1.0.2
+
+- Add change log
+
+### 1.0.3
+
+- Fix documentation issues
+
+### 1.0.4
+
+- Fix documentation issues
 ---
 
 ## Extension guidelines
