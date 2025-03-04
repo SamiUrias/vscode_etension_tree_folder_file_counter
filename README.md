@@ -7,19 +7,19 @@ This extension shows how many files exist in a specified directory
 
 **Tree Structure**
 
-![Screnshot 01](https://github.com/SamiUrias/vscode_etension_tree_folder_file_counter/blob/main/images/readme_img_01.png)
+![Screnshot 01](https://raw.githubusercontent.com/SamiUrias/vscode_etension_tree_folder_file_counter/refs/heads/main/images/readme_img_01.png)
 
 **Folder creation notification**
 
-![Screnshot 02](https://github.com/SamiUrias/vscode_etension_tree_folder_file_counter/blob/main/images/readme_img_02.png)
+![Screnshot 02](https://raw.githubusercontent.com/SamiUrias/vscode_etension_tree_folder_file_counter/refs/heads/main/images/readme_img_02.png)
 
 **File creation notification**
 
-![Screnshot 03](https://github.com/SamiUrias/vscode_etension_tree_folder_file_counter/blob/main/images/readme_img_04.png)
+![Screnshot 03](https://raw.githubusercontent.com/SamiUrias/vscode_etension_tree_folder_file_counter/refs/heads/main/images/readme_img_04.png)
 
 **File deletion notification**
 
-![Screnshot 03](https://github.com/SamiUrias/vscode_etension_tree_folder_file_counter/blob/main/images/readme_img_03.png)
+![Screnshot 03](https://raw.githubusercontent.com/SamiUrias/vscode_etension_tree_folder_file_counter/refs/heads/main/images/readme_img_03.png)
 
 ## Extension Settings
 
