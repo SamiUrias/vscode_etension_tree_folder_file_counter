@@ -1,8 +1,9 @@
 {
   "name": "tree-folder-file-counter",
-  "displayName": "tree_folder_file_counter",
+  "displayName": "Tree Folder File Counter",
   "description": "Count how many files are inside a folder",
   "publisher": "SamuelUrias",
+  "license":"MIT",
   "repository": {
   "type": "git",
   "url": "https://github.com/SamiUrias/vscode_etension_tree_folder_file_counter"
@@ -14,7 +15,9 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -57,8 +60,8 @@
   "devDependencies": {
     "@types/vscode": "^1.97.0",
     "@types/mocha": "^10.0.10",
-    "@types/node": "20.x",
-    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@types/node": "22.13.9",
+    "@typescript-eslint/eslint-plugin": "^8.26.0",
     "@typescript-eslint/parser": "^8.25.0",
     "eslint": "^9.21.0",
     "typescript": "^5.7.3",
