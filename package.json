@@ -1,0 +1,63 @@
+{
+  "name": "tree-folder-file-counter",
+  "displayName": "tree_folder_file_counter",
+  "description": "Count how many files are inside a folder",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "tree-folder-file-counter.helloWorld",
+        "title": "Hello World"
+      },
+      {
+        "command": "tree-folder-file-counter.refresh",
+        "title": "Actualizar Contador de Archivos"
+      }
+    ],
+    "views": {
+      "explorer": [
+        {
+          "id": "fileCounterView",
+          "name": "File Counter"
+        }
+      ]
+    },
+    "configuration": {
+  "title": "Tree Folder File Counter Settings",
+  "properties": {
+    "tree_folder_file_counter.showNotifications": {
+      "type": "boolean",
+      "default": true,
+      "description": "Shwo notification when a file or folder is created or deleted"
+    }
+  }
+}
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.97.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0",
+    "eslint": "^9.21.0",
+    "typescript": "^5.7.3",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
