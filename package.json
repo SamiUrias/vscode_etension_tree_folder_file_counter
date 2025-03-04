@@ -8,7 +8,7 @@
   "type": "git",
   "url": "https://github.com/SamiUrias/vscode_etension_tree_folder_file_counter"
 },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.97.0"
   },
@@ -22,12 +22,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "tree-folder-file-counter.helloWorld",
-        "title": "Hello World"
-      },
-      {
         "command": "tree-folder-file-counter.refresh",
-        "title": "Actualizar Contador de Archivos"
+        "title": "Refresh file counter"
       }
     ],
     "views": {
@@ -44,7 +40,7 @@
     "tree_folder_file_counter.showNotifications": {
       "type": "boolean",
       "default": true,
-      "description": "Shwo notification when a file or folder is created or deleted"
+      "description": "Show notifications when a file or folder is created or deleted"
     }
   }
 }

@@ -14,4 +14,8 @@ All notable changes to the "tree-folder-file-counter" extension:
 ## [1.0.2]
 
 - Add change log
+- 
+## [1.0.3]
+
+- Fix documentation issues
 
