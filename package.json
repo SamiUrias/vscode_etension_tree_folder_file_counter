@@ -8,7 +8,7 @@
   "type": "git",
   "url": "https://github.com/SamiUrias/vscode_etension_tree_folder_file_counter"
 },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "engines": {
     "vscode": ">=1.96.0"
   },
@@ -20,12 +20,23 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
+    "commands": [{
         "command": "tree-folder-file-counter.refresh",
-        "title": "Refresh file counter"
-      }
-    ],
+        "title": "Tree Folder File Counter: Refresh file counter"
+      },
+      {
+        "command": "tree-folder-file-counter.search",
+        "title": "Tree Folder File Counter: Search files"
+      }, {
+        "command": "tree-folder-file-counter.clearFilter",
+        "title": "Tree Folder File Counter: Clear filter"
+      }],
+      "viewsWelcome": [
+        {
+          "view":"explorer",
+          "contents": "No files or folder found"
+        }
+      ],
     "views": {
       "explorer": [
         {
@@ -39,8 +50,33 @@
   "properties": {
     "tree_folder_file_counter.showNotifications": {
       "type": "boolean",
-      "default": true,
+      "default": false,
       "description": "Show notifications when a file or folder is created or deleted"
+    },
+    "tree_folder_file_counter.showMatchArrow": {
+      "type": "boolean",
+      "default": true,
+      "description": "Show an arrow next to the files that match search criteria"
+    },
+    "tree_folder_file_counter.showMatchEmoji": {
+      "type": "boolean",
+      "default": false,
+      "description": "Show an emoji next to the files that match search criteria"
+  },  
+   "tree_folder_file_counter.showCustomMatchEmojiOnFolders": {
+      "type": "boolean",
+      "default": false,
+      "description": "Show an emoji next to the folders that match search criteria"
+    },
+    "tree_folder_file_counter.search":{
+      "type":"string",
+      "default":"",
+      "description": "Search criteria for the file counter"
+    },
+    "tree_folder_file_counter.customMatchEmoji":{
+      "type":"string",
+      "default":"",
+      "description": "Custom emoji to show next to the files that match the search criteria"
     }
   }
 }

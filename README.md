@@ -52,6 +52,10 @@ This extension have the following settings:
 ### 1.0.5
 
 -  Change vscode minimum compatibility
+
+### 1.0.6
+
+-  Add capability to search files files
 ---
 
 ## Extension guidelines

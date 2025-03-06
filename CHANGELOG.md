@@ -27,3 +27,6 @@ All notable changes to the "tree-folder-file-counter" extension:
 
 - Change vscode minimum compatibility
 
+## [1.0.6]
+
+- Add cpability to search files
