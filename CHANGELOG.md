@@ -29,4 +29,8 @@ All notable changes to the "tree-folder-file-counter" extension:
 
 ## [1.0.6]
 
-- Add cpability to search files
+- Add capability to search files
+
+## [1.0.7]
+
+- Add capability to open the files by clicking on it

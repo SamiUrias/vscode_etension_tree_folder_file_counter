@@ -141,7 +141,7 @@ class FileCounterProvider implements vscode.TreeDataProvider<FileItem> {
       if (isMatch) {
         // Highlight files that match the filter
 		element.iconPath = new vscode.ThemeIcon("file");
-		
+
 		if (vscode.workspace .getConfiguration("tree_folder_file_counter").get("showMatchArrow"))  {
 			element.iconPath = new vscode.ThemeIcon("arrow-right");  // Add differente icon to highlight
 		}
@@ -153,6 +153,8 @@ class FileCounterProvider implements vscode.TreeDataProvider<FileItem> {
       } else {
         element.iconPath = new vscode.ThemeIcon("file");
       }
+
+
     } else if (element.type === "folder") {
       element.iconPath = new vscode.ThemeIcon("folder");
     } else if (element.type === "clearItem") {
@@ -229,8 +231,13 @@ class FileCounterProvider implements vscode.TreeDataProvider<FileItem> {
           file,
           vscode.TreeItemCollapsibleState.None,
           filePath,
-          "file"
+          "file",
         );
+		fileItem.command = {
+			command: 'vscode.open',
+			title:'Open file',
+			arguments: [vscode.Uri.file(filePath)]
+		};
         items.push(fileItem);
       }
     }
@@ -296,7 +303,7 @@ class FileItem extends vscode.TreeItem {
     public label: string,
     public readonly collapsibleState: vscode.TreeItemCollapsibleState,
     public readonly filePath: string,
-    public readonly type: "folder" | "file" | "searchItem" | "clearItem" = "searchItem"
+    public readonly type: "folder" | "file" | "searchItem" | "clearItem" = "searchItem",
   ) {
     super(label, collapsibleState);
     this.tooltip = `${this.label}`;

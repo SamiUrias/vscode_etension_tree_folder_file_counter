@@ -56,6 +56,10 @@ This extension have the following settings:
 ### 1.0.6
 
 -  Add capability to search files files
+
+### 1.0.7
+
+- Add capability to open the files by clicking on it
 ---
 
 ## Extension guidelines
