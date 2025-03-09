@@ -14,7 +14,7 @@ All notable changes to the "tree-folder-file-counter" extension:
 ## [1.0.2]
 
 - Add change log
-- 
+  
 ## [1.0.3]
 
 - Fix documentation issues
@@ -32,5 +32,9 @@ All notable changes to the "tree-folder-file-counter" extension:
 - Add capability to search files
 
 ## [1.0.7]
+
+- Add capability to open the files by clicking on it
+  
+## [1.0.8]
 
 - Add capability to open the files by clicking on it

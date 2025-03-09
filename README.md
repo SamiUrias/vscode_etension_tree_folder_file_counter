@@ -1,13 +1,23 @@
-# tree-folder-file-counter README
+# Tree Folder File Counter README
 
 This is an extension to count files
 
 ## Features
-This extension shows how many files exist in a specified directory
+This extension shows how many files exist in a specified directory. This extension also let you find and count specific files or file extension.
 
 **Tree Structure**
 
 ![Screnshot 01](https://raw.githubusercontent.com/SamiUrias/vscode_etension_tree_folder_file_counter/refs/heads/main/images/readme_img_01.png)
+
+**Custom file search**
+
+![Screnshot 05](https://raw.githubusercontent.com/SamiUrias/vscode_etension_tree_folder_file_counter/refs/heads/main/images/readme_img_05png)
+
+**Multiple file or extension search**
+
+![Screnshot 06](https://raw.githubusercontent.com/SamiUrias/vscode_etension_tree_folder_file_counter/refs/heads/main/images/readme_img_06png)
+
+
 
 **Folder creation notification**
 
@@ -19,12 +29,16 @@ This extension shows how many files exist in a specified directory
 
 **File deletion notification**
 
-![Screnshot 03](https://raw.githubusercontent.com/SamiUrias/vscode_etension_tree_folder_file_counter/refs/heads/main/images/readme_img_03.png)
+![Screnshot 04](https://raw.githubusercontent.com/SamiUrias/vscode_etension_tree_folder_file_counter/refs/heads/main/images/readme_img_03.png)
 
 ## Extension Settings
 
 This extension have the following settings:
 * `tree_folder_file_counter.showNotifications"`: Enable/disable this a notification when a file or folder is created or deleted.
+* `tree_folder_file_counter.showMatchArrow"`: Enable/disable the arrow in files that match search.
+* `tree_folder_file_counter.showMatchEmoji"`: Enable/disable to show an emoji in files that match search.
+* `tree_folder_file_counter.customMatchEmoji"`: If you want a custom emoji or character different than the default star, use this setting
+* `tree_folder_file_counter.search"`: If you want to enter the search criteria in the settings, you must use this setting
 
 
 ## Release Notes
@@ -60,7 +74,9 @@ This extension have the following settings:
 ### 1.0.7
 
 - Add capability to open the files by clicking on it
----
+
+### 1.0.8
+- Documentation update
 
 ## Extension guidelines
 Ensure that the extension is enabled in the extensions tab

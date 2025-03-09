@@ -63,11 +63,6 @@
       "default": false,
       "description": "Show an emoji next to the files that match search criteria"
   },  
-   "tree_folder_file_counter.showCustomMatchEmojiOnFolders": {
-      "type": "boolean",
-      "default": false,
-      "description": "Show an emoji next to the folders that match search criteria"
-    },
     "tree_folder_file_counter.search":{
       "type":"string",
       "default":"",
