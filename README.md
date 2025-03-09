@@ -11,11 +11,11 @@ This extension shows how many files exist in a specified directory. This extensi
 
 **Custom file search**
 
-![Screnshot 05](https://raw.githubusercontent.com/SamiUrias/vscode_etension_tree_folder_file_counter/refs/heads/main/images/readme_img_05png)
+![Screnshot 05](https://raw.githubusercontent.com/SamiUrias/vscode_etension_tree_folder_file_counter/refs/heads/main/images/readme_img_05.png)
 
 **Multiple file or extension search**
 
-![Screnshot 06](https://raw.githubusercontent.com/SamiUrias/vscode_etension_tree_folder_file_counter/refs/heads/main/images/readme_img_06png)
+![Screnshot 06](https://raw.githubusercontent.com/SamiUrias/vscode_etension_tree_folder_file_counter/refs/heads/main/images/readme_img_06.png)
 
 
 
